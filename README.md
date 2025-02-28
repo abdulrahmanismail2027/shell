@@ -10,7 +10,7 @@ This is a simple shell implemented in C that supports basic command execution, v
   - **`cd [directory]`**: Change the current working directory.
   - **`pwd`**: Display the current working directory.
   - **`echo [string]`**: Output a string to the console.
-  - **`export [identifier] [value]`**: Set environment variables for later use.
+  - **`export [identifier] = [value]`**: Set environment variables for later use.
   - **`exit`**: Terminate the shell.
 
 - **External Command Execution:**
@@ -73,7 +73,7 @@ After launching, the shell will wait for your input. Commands can be entered as 
 
 - **Exporting a Variable:**
   ```bash
-  export MY_VAR "some value"
+  export MY_VAR = "some value"
   ```
   Then, use the variable:
   ```bash
